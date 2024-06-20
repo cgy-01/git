@@ -29,3 +29,9 @@ git branch -d Branch_Name
 
 
 //// github 联动
+git clone SSH
+
+///
+git remote add origin https://github.com/cgy-01/git.git
+git branch -M main
+git push -u origin main
