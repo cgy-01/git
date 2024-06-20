@@ -1,0 +1,31 @@
+git init //创建仓库
+git status //查看状态
+git add <FilePath> //添加某个文件
+git diff // 查看修改内容
+
+
+git config --global user,email "you@example.com"
+git config --global user.name "Your Name"
+git commit -m "..." // 生成一个新版本 以及描述
+git commit -a -m "..."
+git log // 查看代码仓库的版本信息
+
+git commit -m "..." --amend  // 将当前修改合并到最新的版本中
+
+git checkout --YourFile //回溯
+git reset <FilePath> // 
+
+
+git log
+git checkout --<commit Hash>
+
+// 分支
+git branch branch_Name //创建分支
+git switch Branch_Name //切换分支
+// 合并分支
+git merge -m "..." Branch_Name
+//删除分支
+git branch -d Branch_Name
+
+
+//// github 联动
